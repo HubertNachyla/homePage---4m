@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <title>Kalkulator walut</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body class="page">
+    <div class="wrapper">
+        <form class="js-form">
+            <fieldset class="wrapper__form">
+                <legend class="wrapper__legend">Kalkulator walut</legend>
+                <p class="wrapper__object">
+                    <label>
+                        Mam <input class="js-amount wrapper__form--choice" name="value" type="number" value="100"
+                            step="0.01" min="0" required> PLN*
+                    </label>
+                </p>
+                <p class="wrapper__object">
+                    <label> Ile to <select name="currency" class="js-currency wrapper__form--choice">
+                            <option value="USD">Dolarów Amerykańskich</option>
+                            <option value="EUR">Euro</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <button class="wrapper__button">Policz</button>
+                </p>
+                <p> Wynik: <span class="js-result result"></span></p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
