@@ -1,11 +1,11 @@
 .wrapper {
     max-width: 600px;    
     min-height: 10em;
-    background-color: #e5d2b9;   
+    background-color: #1d2ba7;   
     padding: 5px 10px;
     border: 4px;
     border-style: solid;
-    border-color: hsl(34, 57%, 60%);
+    border-color: hsl(236, 40%, 49%);
     border-radius: 5%;    
     margin: 40px auto;
 }
@@ -13,11 +13,11 @@
 .wrapper__form {
     border-radius: 5%;
     padding: 15px;
-    border-color: rgb(157, 124, 180);
+    border-color: rgb(11, 5, 94);
 }
 
 .wrapper__form--choice {
-    background-color: antiquewhite;
+    background-color: hsl(199, 62%, 53%);
     width: 90%;
     max-width: 200px;
     display: inline-block;
@@ -28,7 +28,7 @@
 }
 
 .wrapper__button {
-    background-color: hsl(34, 57%, 60%);
+    background-color: hsl(199, 62%, 53%);
     padding: 5px;
     width: 90%;
     border-radius: 10px;
@@ -36,22 +36,22 @@
 }
 
 .wrapper__button:hover {
-    background-color: hsl(34, 57%, 65%);
+    background-color: hsl(231, 100%, 70%);
 }
 
 .wrapper__button:active {
-    background-color: hsl(34, 57%, 70%);
+    background-color: hsl(231, 100%, 63%);
 }
 
 .wrapper__legend {
-    background-color: hsl(34, 57%, 60%);
+    background-color: hsl(199, 62%, 53%);
     border-radius: 10px;
     padding: 5px;
     color: rgb(37, 37, 37);
 }
 
 .wrapper__result {
-    background-color: hsl(34, 57%, 65%);
+    background-color: hsl(199, 62%, 53%);
     border-radius: 10px;
     padding: 5px;
     display: inline-block;
